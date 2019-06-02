@@ -1,0 +1,196 @@
+/* .body{
+    background:#ECEFF1;
+} */
+
+.mdc-typography {
+    --mdc-theme-primary: #607D8B;
+
+}
+
+.mdc-tab__text-label{
+    color: white !important;
+}
+
+.mdc-typography--headline4 {
+    margin: 1rem 1rem 1rem 1rem ;
+}
+.mdc-typography--headline5 {
+    margin: 1rem 1rem 1rem 1rem ;
+}
+.mdc-typography--headline6 {
+    margin: 1rem 1rem 1rem 1rem ;
+}
+
+
+.mdc-typography--body1 {
+    margin: 1rem 1rem 1rem 1rem ;
+}
+
+.mdc-typography--body2 {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+
+.logostyle {
+    /* display: inline;
+    vertical-align: top; */
+    margin: 0rem 0rem 0rem 0rem ;
+    width: 100%;
+    
+    
+}
+
+.bannerstyle {
+    /* position: fixed;
+    z-index: 10;
+    background-color: #ffffff; */
+    font-family: 'Oxygen', sans-serif;
+    font-size: 3rem;
+    color: #546E79;
+    font-weight: bold;
+    display: inline;
+    margin: 0rem 0rem 0rem 0rem ;
+    
+   
+}
+
+.banner{
+    position: fixed;
+    z-index: 10;
+    background: white;
+    width: 100%;
+    
+}
+
+.bannerstyle2 {
+    font-family: 'Oxygen', sans-serif;
+    size: 1rem;
+    color: #546E79;
+    margin: 0rem 0rem 1rem 1rem ;
+    vertical-align: text-top;
+    
+}
+
+.midwaystyle{
+    background: linear-gradient(rgba(6, 4, 7, 0.3),rgba(32,28,33, 0.3)),
+    no-repeat center/cover url(images/movingmidway.jpg); padding: 40px; margin-top:20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.my-card{
+    margin: 0rem 0rem 1rem 0rem;
+    
+}
+
+.my-card-content{
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.footer{
+    background-color: #608B84;
+    padding: 1rem 1rem 1rem 1rem;
+    color: white;
+
+}
+
+.my-image-list{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.mdc-image-list__item{
+    min-width: 250px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* .mdc-image-list__image-aspect-container{
+} */
+
+ .mdc-image-list__image{
+    border-radius: 8px; 
+    
+}  
+
+ .mdc-image-list__supporting {
+    /* position: none;
+    border-radius: 0 0 8px 8px; 
+    padding: 2px;
+    height: 100px; */
+}
+
+.adjust {
+    position: none;
+    border-radius: 0 0 8px 8px!important; 
+    padding: 10px !important;
+    height: auto !important;
+    background: linear-gradient(rgba(96, 125, 139, 0.3),rgba(96, 125, 125, 0.3)) !important;
+    
+}
+
+ /* .mdc-image-list--with-text-protection{
+    border-radius: 0 0 8px 8px;
+    position: none;
+    height: 200px;
+    padding: 2px;
+    height: 100px;
+
+}  */
+
+
+.mdc-image-list__label{
+    border-radius: 0 0 8px 8px;
+    margin: 0rem 0rem 0rem 0rem;
+    white-space: normal;
+    overflow: visible;
+    font-weight: bold;
+    color: #37474F; 
+
+}
+
+.adjust-sound{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.my-sound-card{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+
+    
+}
+
+.my-sound-card-content{
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.my-accessories-card{
+    margin: 1.5rem;
+    padding: 0rem 2rem 2rem 2rem;
+    border-radius: 8px;
+}
+
+.mdc-list-item__graphic{
+
+}
+
+.mdc-list-item{
+    padding: .25rem;
+}
+
+.truck-image{
+    width: 200px;
+}
+
+.my-mdc-list-item__graphic{
+    width: 3rem;
+    margin: 2rem 1rem 1rem 1rem;
+    vertical-align: bottom;
+
+}

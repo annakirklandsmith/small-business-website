@@ -12,93 +12,102 @@
 
 <body class="mdc-typography"> 
 
-<div>
-    <img class="logostyle" src="iris.png"><h1 class="bannerstyle">On Location NC</h1>
-    <h2 class="bannerstyle2"> Film & Video Equipment Services in the Carolinas and Virginia</h2>   
+        <header class="mdc-top-app-bar">
+                <div class="mdc-top-app-bar__row">
+                  <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start mdc-top-app-bar--prominent mdc-top-app-bar--fixed">
+                    <a href="#" class="material-icons mdc-top-app-bar__navigation-icon">menu</a>
+                    <span class="mdc-top-app-bar__title">On Location NC Film & Video</span>
+                  </section>
+                  <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+                    <a href="#" class="material-icons mdc-top-app-bar__action-item" aria-label="phone">phone</a>
+                    <a href="#" class="material-icons mdc-top-app-bar__action-item" aria-label="email">email</a>
+                  </section>
+                </div>
+           
+            
+                <div class="mdc-tab-bar" role="tablist">
+                    <div class="mdc-tab-scroller">
+                        <div class="mdc-tab-scroller__scroll-area">
+                        <div class="mdc-tab-scroller__scroll-content">
 
-<!-- tab bar -->
-    <div class="mdc-tab-bar" role="tablist">
-        <div class="mdc-tab-scroller">
-            <div class="mdc-tab-scroller__scroll-area">
-            <div class="mdc-tab-scroller__scroll-content">
+                            <button id="buttonhome" class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='index.html';">
+                                    <span class="mdc-tab__content">
+                                        <span class="mdc-tab__text-label">Home</span>
+                                    </span>
+                                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                    <span class="mdc-tab__ripple"></span>
+                            </button>
 
-                <button id="buttonhome" class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="index.href='aboutus.html';">
-                        <span class="mdc-tab__content">
-                            <span class="mdc-tab__text-label">Home</span>
-                        </span>
-                        <span class="mdc-tab-indicator mdc-tab-indicator--active">
-                            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
-                        </span>
-                        <span class="mdc-tab__ripple"></span>
-                </button>
+                            <button class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='cameras.html';">
+                            <span class="mdc-tab__content">
+                                <span class="mdc-tab__text-label">Cameras</span>
+                            </span>
+                            <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                            </span>
+                            <span class="mdc-tab__ripple"></span>
+                            </button>
 
-                <button class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='cameras.html';">
-                <span class="mdc-tab__content">
-                    <span class="mdc-tab__text-label">Cameras</span>
-                </span>
-                <span class="mdc-tab-indicator mdc-tab-indicator--active">
-                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
-                </span>
-                <span class="mdc-tab__ripple"></span>
-                </button>
+                            <button class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='lighting.html';">
+                                    <span class="mdc-tab__content">
+                                        <span class="mdc-tab__text-label">Lighting</span>
+                                    </span>
+                                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                    <span class="mdc-tab__ripple"></span>
+                            </button>
 
-                <button class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='lighting.html';">
-                        <span class="mdc-tab__content">
-                            <span class="mdc-tab__text-label">Lighting</span>
-                        </span>
-                        <span class="mdc-tab-indicator mdc-tab-indicator--active">
-                            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
-                        </span>
-                        <span class="mdc-tab__ripple"></span>
-                </button>
+                            <button class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='sound.html';">
+                                    <span class="mdc-tab__content">
+                                        <span class="mdc-tab__text-label">Sound</span>
+                                    </span>
+                                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                    <span class="mdc-tab__ripple"></span>
+                            </button>
 
-                <button class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='sound.html';">
-                        <span class="mdc-tab__content">
-                            <span class="mdc-tab__text-label">Sound</span>
-                        </span>
-                        <span class="mdc-tab-indicator mdc-tab-indicator--active">
-                            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
-                        </span>
-                        <span class="mdc-tab__ripple"></span>
-                </button>
+                            <button class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='grip.html';">
+                                    <span class="mdc-tab__content">
+                                        <span class="mdc-tab__text-label">Grip</span>
+                                    </span>
+                                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                    <span class="mdc-tab__ripple"></span>
+                            </button>
 
-                <button class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='grip.html';">
-                        <span class="mdc-tab__content">
-                            <span class="mdc-tab__text-label">Grip</span>
-                        </span>
-                        <span class="mdc-tab-indicator mdc-tab-indicator--active">
-                            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
-                        </span>
-                        <span class="mdc-tab__ripple"></span>
-                </button>
+                            <button class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='trucks.html';">
+                                    <span class="mdc-tab__content">
+                                        <span class="mdc-tab__text-label">Trucks</span>
+                                    </span>
+                                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                    <span class="mdc-tab__ripple"></span>
+                            </button>
 
-                <button class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='trucks.html';">
-                        <span class="mdc-tab__content">
-                            <span class="mdc-tab__text-label">Trucks</span>
-                        </span>
-                        <span class="mdc-tab-indicator mdc-tab-indicator--active">
-                            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
-                        </span>
-                        <span class="mdc-tab__ripple"></span>
-                </button>
-
-                <button id="buttonaboutus" class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='aboutus.html';">
-                        <span class="mdc-tab__content">
-                            <span class="mdc-tab__text-label">About Us</span>
-                        </span>
-                        <span class="mdc-tab-indicator mdc-tab-indicator--active">
-                            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
-                        </span>
-                        <span class="mdc-tab__ripple"></span>
-                </button>
+                            <button id="buttonaboutus" class="mdc-tab mdc-tab--active mdc-layout-grid__cell" role="tab" aria-selected="true" tabindex="0" onclick="location.href='aboutus.html';">
+                                    <span class="mdc-tab__content">
+                                        <span class="mdc-tab__text-label">About Us</span>
+                                    </span>
+                                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                    <span class="mdc-tab__ripple"></span>
+                            </button>
 
 
-            </div>
-            </div>
-        </div>
-    </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+       
+            </header>  
 
-</div>
 
     
     <!-- <h5 class="mdc-typography--headline5 midwaystyle">Film & Video Production Lighting, Grip, Camera, Sound Rentals + Crew</h5> -->
@@ -107,20 +116,7 @@
     <p class="mdc-typography--body1">On Location NC Film & Video works for you to put your equipment rental and location production support services needs in one package. Our inventory includes professional camera, lighting, grip and electric equipment packages with crew for television sports & entertainment, feature and short films, documentaries, commercials, and corporate film & video.</p>
     <p class="mdc-typography--body1">We want to give you a seamless work experience while working in our area.  Your crew and equipment can be placed on one invoice. Equipment delivery and pickup available. Our crews and equipment are fully insured with workers’ compensation and general liability insurance.</p>
 
-    
-<!-- image list -->
 
-    <!-- <ul class="mdc-image-list my-image-list">
-        <li class="mdc-image-list__item">
-          <div class="mdc-image-list__image-aspect-container">
-            <img class="mdc-image-list__image" src="sound.jpg">
-          </div>
-          <div class="mdc-image-list__supporting">
-            <span class="mdc-image-list__label">Picture1</span>
-          </div>
-        </li>
-        
-      </ul> -->
 
 <!-- card list -->
 
@@ -162,8 +158,7 @@
 <div class="footer">
 <p class="mdc-typography--body1">On Location NC<br>
 Film & Video Equipment Services</p>
-<p class="mdc-typography--body2">P.O. Box 50157 Raleigh, NC 27650-6157<br>
-410 W South St, Raleigh, NC 27603<br>
+<p class="mdc-typography--body1">
 Toll Free: 888-469-GRIP(4747)<br>
 Tel: 919-755-9488</p>
 </div>
