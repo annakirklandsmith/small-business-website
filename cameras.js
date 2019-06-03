@@ -144,5 +144,85 @@ document.addEventListener('DOMContentLoaded', function () {
     
     }
 
+    const header = document.getElementById('headerDiv');
+    header.innerHTML = 
+
+    `        <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+                <div class="mdc-top-app-bar__row">
+                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <div class="">
+                    <a href="index.html" class="mdc-tab__text-label">Home</a>
+                    <a href="cameras.html" class="mdc-tab__text-label">Cameras</a>
+                    <a href="lighting.html" class="mdc-tab__text-label">Lighting</a>
+                    <a href="sound.html" class="mdc-tab__text-label">Sound</a>
+                    <a href="grip.html" class="mdc-tab__text-label">Grip</a>
+                    <a href="trucks.html" class="mdc-tab__text-label">Trucks</a>
+                    <a href="aboutus.html" class="mdc-tab__text-label">About</a>
+                </div>
+                </section>
+                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+                    <a href="tel:9197559488" class="material-icons mdc-top-app-bar__action-item" aria-label="Phone">phone</a>
+                    <a href="mailto:info@onlocation-nc.com" class="material-icons mdc-top-app-bar__action-item" aria-label="Email">email</a>
+                </section>
+                </div>
+            </header> 
+        
+        <div class="mdc-top-app-bar--fixed-adjust"></div>`
+    
+    const footer = document.getElementById('footerDiv');
+    footer.innerHTML = 
+
+
+    `<div class="footer">
+    <p class="mdc-typography--body1">On Location NC<br>
+    Film & Video Equipment Services</p>
+    <p class="mdc-typography--body1">
+    Toll Free: 888-469-GRIP(4747)<br>
+    Tel: <a class="mdc-typography--body1" href="tel:9197559488">919-755-9488</a>
+    Email: <a class="mdc-typography--body1" href="mailto:info@onlocation-nc.com">info@onlocation-nc.com</a></p>
+
+        
+
+
+                    
+
+
+<!-- https://mycyberuniverse.com/add-social-media-buttons-to-your-website.html -->
+
+
+    <div class="mdc-typography--body1">
+            <a class="mdc-typography--body1" href="https://www.facebook.com/OnLocationNC/" target='blank'>
+                <img src="images/social-media-icons/facebook.png" alt="Facebook" />
+            </a>
+
+            <a class="mdc-typography--body1" href="https://twitter.com/LocationNc/" target='blank'>
+                <img src="images/social-media-icons/twitter.png" alt="Twitter" />
+            </a>
+
+            <a  class="mdc-typography--body1" href="https://www.linkedin.com/company/on-location-nc-film-video" target='blank'>
+                <img src="images/social-media-icons/linkedin.png" alt="Linkedin" />
+            </a>
+    
+            <a class="mdc-typography--body1" href="mailto:info@onlocation-nc.com?subject=Message from website" target='blank'>
+                <img src="images/social-media-icons/email.png" alt="Mail" />
+            </a>
+    </div>
+
+       
+
+    
+    
+    <div class="mdc-typography--body1">
+    <a class="mdc-typography--body1" href="index.html" class="">Home</a>
+    <a class="mdc-typography--body1" href="cameras.html" class="">Cameras</a>
+    <a class="mdc-typography--body1" href="lighting.html" class="">Lighting</a>
+    <a class="mdc-typography--body1" href="sound.html" class="">Sound</a>
+    <a class="mdc-typography--body1" href="grip.html" class="">Grip</a>
+    <a class="mdc-typography--body1" href="trucks.html" class="">Trucks</a>
+    <a class="mdc-typography--body1" href="aboutus.html" class="">About</a>
+    </div>
+    `
+
+
 
 })

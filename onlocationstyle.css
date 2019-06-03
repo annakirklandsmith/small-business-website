@@ -24,6 +24,7 @@
 
 .mdc-typography--body1 {
     margin: 1rem 1rem 1rem 1rem ;
+    
 }
 
 .mdc-typography--body2 {
@@ -73,10 +74,12 @@
 
 .midwaystyle{
     background: linear-gradient(rgba(6, 4, 7, 0.3),rgba(32,28,33, 0.3)),
-    no-repeat center/cover url(images/movingmidway.jpg); padding: 40px; margin-top:20px;
+    no-repeat center/cover url(images/movingmidway.jpg); padding: 40px; 
     color: white;
     font-weight: bold;
     text-align: center;
+    margin: 0rem 1rem 0rem 1rem ;
+
 }
 
 .my-card{
@@ -103,7 +106,8 @@
 }
 
 .mdc-image-list__item{
-    min-width: 250px;
+    /* width: 250px;
+    height: 250px; */
     margin: 10px;
     border-radius: 8px;
 }
@@ -112,7 +116,9 @@
 } */
 
  .mdc-image-list__image{
-    border-radius: 8px; 
+    border-radius: 8px;
+ 
+ 
     
 }  
 
@@ -194,3 +200,16 @@
     vertical-align: bottom;
 
 }
+
+.mdc-tab__text-label{
+    padding: 0rem 1rem 0rem 1rem;
+    margin: 0rem 1rem 0rem 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+    
+    
+
+}
+
+/* https://css-tricks.com/books/volume-i/scale-typography-screen-size/ */
