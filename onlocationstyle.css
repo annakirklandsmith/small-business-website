@@ -4,6 +4,7 @@
 
 .mdc-typography {
     --mdc-theme-primary: #607D8B;
+    margin: 0rem 0rem 0rem 0rem ;
 
 }
 
@@ -19,6 +20,8 @@
 }
 .mdc-typography--headline6 {
     margin: 1rem 1rem 1rem 1rem ;
+    color:  #607D8B;
+    font-weight: bold;
 }
 
 
@@ -106,14 +109,16 @@
 }
 
 .mdc-image-list__item{
-    /* width: 250px;
-    height: 250px; */
+    width: 250px;
     margin: 10px;
     border-radius: 8px;
 }
 
-/* .mdc-image-list__image-aspect-container{
-} */
+.mdc-image-list__image-aspect-container{
+
+    /* height: 50%; */
+    
+} 
 
  .mdc-image-list__image{
     border-radius: 8px;
@@ -213,3 +218,30 @@
 }
 
 /* https://css-tricks.com/books/volume-i/scale-typography-screen-size/ */
+
+.white{
+    color:white;
+}
+
+/* mdc-tab__text-label a:hover{
+    color:#640200;
+    background-color:#000000;
+}
+
+mdc-tab__text-label a:active{
+    color:pink;
+    background-color: red;
+} */
+
+.aboutimage{
+    /* display: inline-block; */
+    /* float: left;
+    margin: 20px; */
+    width: 100%;
+    margin: 1rem 0rem 0rem 0rem;
+    border-radius: 8px;
+    }
+
+/* .inline{
+        display: inline-block;
+        } */

@@ -150,8 +150,8 @@ document.addEventListener('DOMContentLoaded', function () {
     `        <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
                 <div class="mdc-top-app-bar__row">
                 <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                    <a href="index.html" class="mdc-top-app-bar__navigation-icon"><img src="images/logodark.png" alt="Home" style="width: 4vw; vertical-align: -50%"></a>
                 <div class="">
-                    <a href="index.html" class="mdc-tab__text-label">Home</a>
                     <a href="cameras.html" class="mdc-tab__text-label">Cameras</a>
                     <a href="lighting.html" class="mdc-tab__text-label">Lighting</a>
                     <a href="sound.html" class="mdc-tab__text-label">Sound</a>
@@ -176,10 +176,34 @@ document.addEventListener('DOMContentLoaded', function () {
     `<div class="footer">
     <p class="mdc-typography--body1">On Location NC<br>
     Film & Video Equipment Services</p>
-    <p class="mdc-typography--body1">
+
+    <div>
+    <a class="mdc-typography--body1" href="https://www.facebook.com/OnLocationNC/" target='blank'>
+        <img src="images/social-media-icons/facebook.png" alt="Facebook" />
+    </a>
+
+    <a class="mdc-typography--body1" href="https://twitter.com/LocationNc/" target='blank'>
+        <img src="images/social-media-icons/twitter.png" alt="Twitter" />
+    </a>
+
+    <a  class="mdc-typography--body1" href="https://www.linkedin.com/company/on-location-nc-film-video" target='blank'>
+        <img src="images/social-media-icons/linkedin.png" alt="Linkedin" />
+    </a>
+
+    <a class="mdc-typography--body1" href="mailto:info@onlocation-nc.com?subject=Message from website" target='blank'>
+        <img src="images/social-media-icons/email.png" alt="Mail" />
+    </a>
+
+    <a class="mdc-typography--body1" href="tel:9197559488" target='blank'>
+    <img src="images/social-media-icons/phone.png" alt="Call" />
+</a>
+</div>
+
+
+    <p class="mdc-typography--body1 white">
     Toll Free: 888-469-GRIP(4747)<br>
-    Tel: <a class="mdc-typography--body1" href="tel:9197559488">919-755-9488</a>
-    Email: <a class="mdc-typography--body1" href="mailto:info@onlocation-nc.com">info@onlocation-nc.com</a></p>
+    Tel: <a class="mdc-typography--body1 white" href="tel:9197559488">919-755-9488</a>
+    Email: <a class="mdc-typography--body1 white" href="mailto:info@onlocation-nc.com">info@onlocation-nc.com</a></p>
 
         
 
@@ -190,36 +214,20 @@ document.addEventListener('DOMContentLoaded', function () {
 <!-- https://mycyberuniverse.com/add-social-media-buttons-to-your-website.html -->
 
 
-    <div class="mdc-typography--body1">
-            <a class="mdc-typography--body1" href="https://www.facebook.com/OnLocationNC/" target='blank'>
-                <img src="images/social-media-icons/facebook.png" alt="Facebook" />
-            </a>
-
-            <a class="mdc-typography--body1" href="https://twitter.com/LocationNc/" target='blank'>
-                <img src="images/social-media-icons/twitter.png" alt="Twitter" />
-            </a>
-
-            <a  class="mdc-typography--body1" href="https://www.linkedin.com/company/on-location-nc-film-video" target='blank'>
-                <img src="images/social-media-icons/linkedin.png" alt="Linkedin" />
-            </a>
     
-            <a class="mdc-typography--body1" href="mailto:info@onlocation-nc.com?subject=Message from website" target='blank'>
-                <img src="images/social-media-icons/email.png" alt="Mail" />
-            </a>
-    </div>
 
        
 
     
     
-    <div class="mdc-typography--body1">
-    <a class="mdc-typography--body1" href="index.html" class="">Home</a>
-    <a class="mdc-typography--body1" href="cameras.html" class="">Cameras</a>
-    <a class="mdc-typography--body1" href="lighting.html" class="">Lighting</a>
-    <a class="mdc-typography--body1" href="sound.html" class="">Sound</a>
-    <a class="mdc-typography--body1" href="grip.html" class="">Grip</a>
-    <a class="mdc-typography--body1" href="trucks.html" class="">Trucks</a>
-    <a class="mdc-typography--body1" href="aboutus.html" class="">About</a>
+    <div>
+    <a class="mdc-typography--body1 white" href="index.html" class="">Home</a>
+    <a class="mdc-typography--body1 white" href="cameras.html" class="">Cameras</a>
+    <a class="mdc-typography--body1 white" href="lighting.html" class="">Lighting</a>
+    <a class="mdc-typography--body1 white" href="sound.html" class="">Sound</a>
+    <a class="mdc-typography--body1 white" href="grip.html" class="">Grip</a>
+    <a class="mdc-typography--body1 white" href="trucks.html" class="">Trucks</a>
+    <a class="mdc-typography--body1 white" href="aboutus.html" class="">About</a>
     </div>
     `
 
