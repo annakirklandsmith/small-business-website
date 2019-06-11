@@ -187,6 +187,22 @@
     border-radius: 8px;
 }
 
+.my-truck-card{
+    margin: 1.5rem;
+    padding: 0rem 2rem 2rem 2rem;
+    border-radius: 8px;
+    max-width: 225px;
+}
+
+.adjust-truck{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row ;
+}
+
+
+
+
 .mdc-list-item__graphic{
 
 }
@@ -245,3 +261,25 @@ mdc-tab__text-label a:active{
 /* .inline{
         display: inline-block;
         } */
+
+a.mdc-tab__text-label:hover {
+            color: orange;
+}
+
+.mdc-tab__text-label:hover {
+    color: white !important;
+    /* border-radius: 8px 8px 8px 8px; */
+    /* border-radius: 50%; */
+
+    /* background-color: #78909c; */
+    font-weight: bold;
+
+}
+
+/* .my-image-list {
+    @include mdc-image-list-standard-columns(3);
+} */
+
+.mdc-tab{
+    background-color: black !important;
+}
