@@ -152,12 +152,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
                     <a href="index.html" class="mdc-top-app-bar__navigation-icon"><img src="images/logodark.png" alt="Home" style="width: 4vw; vertical-align: -50%"></a>
                 <div class="">
-                    <a href="cameras.html" class="mdc-tab__text-label">Cameras</a>
-                    <a href="lighting.html" class="mdc-tab__text-label">Lighting</a>
-                    <a href="sound.html" class="mdc-tab__text-label">Sound</a>
-                    <a href="grip.html" class="mdc-tab__text-label">Grip</a>
-                    <a href="trucks.html" class="mdc-tab__text-label">Trucks</a>
-                    <a href="aboutus.html" class="mdc-tab__text-label">About</a>
+                    <a href="cameras.html" class="mdc-tab__text-label-top">Cameras</a>
+                    <a href="lighting.html" class="mdc-tab__text-label-top">Lighting</a>
+                    <a href="sound.html" class="mdc-tab__text-label-top">Sound</a>
+                    <a href="grip.html" class="mdc-tab__text-label-top">Grip</a>
+                    <a href="trucks.html" class="mdc-tab__text-label-top">Trucks</a>
+                    <a href="aboutus.html" class="mdc-tab__text-label-top">About</a>
                 </div>
                 </section>
                 <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
