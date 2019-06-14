@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     `<div class="footer">
-    <p class="mdc-typography--body1">On Location NC<br>
+    <p tabindex="0" class="mdc-typography--body1">On Location NC<br>
     Film & Video Equipment Services</p>
 
     <div>
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 
 
-    <p class="mdc-typography--body1 white">
+    <p tabindex="0" class="mdc-typography--body1 white">
     Toll Free: 888-469-GRIP(4747)<br>
     Tel: <a class="mdc-typography--body1 white" href="tel:9197559488">919-755-9488</a>
     Email: <a class="mdc-typography--body1 white" href="mailto:info@onlocation-nc.com">info@onlocation-nc.com</a></p>
