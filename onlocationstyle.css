@@ -114,9 +114,24 @@
     flex-flow: row wrap;
     
 }
+/* 
+ .mdc-layout-grid {
+    background-color: blue;
+}
+
+.mdc-layout-grid__inner {
+    background-color: pink;
+} */
+
+.mdc-layout-grid__cell--span-12-desktop {
+    width: calc(250px + (20 - 10) * ((100vw - 300px) / (1600 - 300)))
+}
+
+/* .mdc-layout-grid__cell--span-1-phone {
+    width: calc(500px + (20 - 10) * ((100vw - 300px) / (1600 - 300)))
+}  */
 
 .mdc-image-list__item{
-    width: 250px;
     margin: 10px;
     border-radius: 8px;
 }

@@ -12,13 +12,13 @@ function fetchImage (varId) {
 		return 'smallHD.jpeg'
     }
     if (varId == "C26") {
-		return 'Odyssey7Q.png'
+		return 'odyssey7Q.png'
     }
     if (varId == "C29") {
 		return 'SachtlerVideo20.jpeg'
     }
     if (varId == "C30") {
-		return 'Oconnor1030B.jpeg'
+		return 'OConnor1030B.jpeg'
     }
     if (varId == "C31") {
 		return 'Manfrotto504HD.jpeg'
@@ -42,10 +42,10 @@ function fetchImage (varId) {
         return 'SoundDevices442.jpeg'
     }
     if (varId == "C58") {
-        return 'ZoomH6.jpeg'
+        return 'zoomh6.jpeg'
     }
     if (varId == "C62") {
-        return 'Quasar4ft.jpeg'
+        return 'quasar4ft.jpeg'
     }
     if (varId == "C64") {
         return 'HiveWASP.jpeg'
@@ -54,16 +54,16 @@ function fetchImage (varId) {
         return 'LitepanelAstra6.jpeg'
     }
     if (varId == "C67") {
-        return 'ChimeraFor.jpeg'
+        return 'chimeraFor.jpeg'
     }
     if (varId == "C73") {
         return 'ArriSoftbank.jpeg'
     }
     if (varId == "C91") {
-        return 'KinofloImage80.jpeg'
+        return 'kinofloimage80.jpeg'
     }
     if (varId == "C92") {
-        return 'KinofloTegra.jpeg'
+        return 'kinoflotegra.jpeg'
     }
     if (varId == "G01") {
         return 'hihiroller.jpeg'
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         listItems[i].innerHTML = 
 
-            `<li class="mdc-image-list__item mdc-layout-grid__cell mdc-elevation--z10">
+            `<li class="mdc-image-list__item mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-1-phone mdc-elevation--z10">
                 <div class="mdc-image-list__image-aspect-container">
                     <a href="#${varText}">    
                     <img class="mdc-image-list__image" src="images/${varImage}">
