@@ -87,19 +87,16 @@ document.addEventListener('DOMContentLoaded', function () {
                 <div class="mdc-top-app-bar__row">
                 <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
                     <a href="index.html" class="mdc-top-app-bar__navigation-icon"><img src="images/logodark.png" alt="Home" style="width: 4vw; vertical-align: -50%"></a>
-                <div class="">
+                    <div class="">
                     <a href="cameras.html" class="mdc-tab__text-label-top">Cameras</a>
                     <a href="lighting.html" class="mdc-tab__text-label-top">Lighting</a>
-                    <a href="sound.html" class="mdc-tab__text-label-top">Sound</a>
                     <a href="grip.html" class="mdc-tab__text-label-top">Grip</a>
+                    <a href="sound.html" class="mdc-tab__text-label-top">Sound</a>
+                    <a href="crew.html" class="mdc-tab__text-label-top">Crew</a>
                     <a href="trucks.html" class="mdc-tab__text-label-top">Trucks</a>
                     <a href="aboutus.html" class="mdc-tab__text-label-top">About</a>
-                </div>
-                </section>
-                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
-                    <a href="tel:9197559488" class="material-icons mdc-top-app-bar__action-item" aria-label="Phone">phone</a>
-                    <a href="mailto:info@onlocation-nc.com" class="material-icons mdc-top-app-bar__action-item" aria-label="Email">email</a>
-                </section>
+                    <a href="tel:9197559488" class="mdc-tab__text-label-top"><img style="vertical-align: -50%" src="images/social-media-icons/phone.png" alt="Call" aria-label="9197559488"></a>
+                    <a href="mailto:info@onlocation-nc.com" class="mdc-tab__text-label-top"><img style="vertical-align: -50%" src="images/social-media-icons/email.png" alt="Email" aria-label="Email"></a>
                 </div>
             </header> 
         
@@ -110,8 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     `<div class="footer">
-    <p tabindex="0" class="mdc-typography--body1">On Location NC<br>
-    Film & Video Equipment Services</p>
+    <p tabindex="0" class="mdc-typography--body1">On Location NC Film & Video Equipment & Services</p>
 
     <div>
     <a class="mdc-typography--body1" href="https://www.facebook.com/OnLocationNC/" target='blank'>
@@ -156,15 +152,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     
     
-    <div>
-    <a class="mdc-typography--body1 white" href="index.html" class="">Home</a>
-    <a class="mdc-typography--body1 white" href="cameras.html" class="">Cameras</a>
-    <a class="mdc-typography--body1 white" href="lighting.html" class="">Lighting</a>
-    <a class="mdc-typography--body1 white" href="sound.html" class="">Sound</a>
-    <a class="mdc-typography--body1 white" href="grip.html" class="">Grip</a>
-    <a class="mdc-typography--body1 white" href="trucks.html" class="">Trucks</a>
-    <a class="mdc-typography--body1 white" href="aboutus.html" class="">About</a>
-    </div>
+<div>
+<a class="mdc-typography--body1 white" href="index.html" class="">Home</a>
+<a class="mdc-typography--body1 white" href="cameras.html" class="">Cameras</a>
+<a class="mdc-typography--body1 white" href="lighting.html" class="">Lighting</a>
+<a class="mdc-typography--body1 white" href="grip.html" class="">Grip</a>
+<a class="mdc-typography--body1 white" href="sound.html" class="">Sound</a>
+<a class="mdc-typography--body1 white" href="crew.html" class="">Crew</a>
+<a class="mdc-typography--body1 white" href="trucks.html" class="">Trucks</a>
+<a class="mdc-typography--body1 white" href="aboutus.html" class="">About</a>
+</div>
     `
 })
 

@@ -5,6 +5,7 @@
 .mdc-typography {
     --mdc-theme-primary: #607D8B;
     margin: 0rem 0rem 0rem 0rem ;
+  
 
 }
 
@@ -12,6 +13,9 @@
     
 }
 
+.mdc-typography--headline3 {
+    margin: 1rem 1rem 1rem 1rem ;
+}
 .mdc-typography--headline4 {
     margin: 1rem 1rem 1rem 1rem ;
 }
@@ -34,12 +38,17 @@
     margin: 1rem 1rem 1rem 1rem;
 }
 
+.mdc-typography--button {
+    padding: 0rem 0rem 0rem 1.5rem;
+}
+
+
 
 .logostyle {
     /* display: inline;
     vertical-align: top; */
-    margin: 0rem 0rem 0rem 0rem ;
-    width: 100%;
+    padding: 2rem 2rem 2rem 2rem ;
+    width: 90%;
     
     
 }
@@ -75,13 +84,22 @@
     
 }
 
+.bannerpic{
+    background: linear-gradient(rgba(6, 4, 7, 0.3),rgba(32,28,33, 0.3));
+    z-index: 10;
+    margin: 1rem 1rem 1rem 1rem;
+    width: 95%;
+}
+
 .midwaystyle{
     background: linear-gradient(rgba(6, 4, 7, 0.3),rgba(32,28,33, 0.3)),
-    no-repeat center/cover url(images/movingmidway.jpg); padding: 40px; 
+    no-repeat center/cover url(images/banner00.jpg); padding: 5vw; 
     color: white;
     font-weight: bold;
     text-align: center;
-    margin: 0rem 1rem 0rem 1rem ;
+    margin: 1rem 1rem 1rem 1rem ;
+    height: 15vw;
+    font-size: calc(32px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
 
 }
 
@@ -281,6 +299,11 @@
 .mdc-tab{
      background-color: #90a4ae !important; 
      
+}
+
+.mdc-tab--active {
+    font-weight: bold !important;
+
 }
 
 .mdc-tab--active {
